@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+       .sub>p{
+        display: inline-block;
+        padding-left: 15px;
+    }
+       .nav>h3{
+        display: inline-block;
+    }
+        .nav{
+            position: fixed;
+            background-color: white;
+            width: 100%;
+            margin: 0px;
+        }
+        .sub{
+            display: inline-block;
+            margin-left: 1000px;
+        }
+        .parent1>img{
+            position: relative;
+            z-index: -10;
+        }
+        .parent1>h1{
+            position: absolute;
+            top:400px;
+            left:600px;
+        }
+        .child{
+            display: inline-block;
+            width: 23%;
+            position: relative;
+        }
+        .kusuma{
+            width: 100%;
+        }
+        .child>img{
+            width: 100%;
+        }
+        .child>h2{
+            position: absolute;
+            top:0;
+            left:0;
+            background-color: azure;
+            color: black;
+        }
+        .kv{
+            display: inline-block;
+            width: 23%;
+        }
+        .kk{
+            width:100%;
+        }
+        .kv>img{
+            width:100%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <h3> BR Architects</h3>
+        <div class="sub">
+            <p> projects</p>
+            <p>about</p>
+            <p> contact</p>
+        </div>
+    </div>
+    <div class="parent1">
+        <img src="https://www.w3schools.com/w3images/architect.jpg" alt=" ">
+        <h1><span style="background-color:grey ;">BR</span>Architects</h1>
+    </div>
+    <h1> Project</h1>
+    <div class="kusuma">
+        <div class="child">
+            <img src="https://www.w3schools.com/w3images/house5.jpg">
+            <h2> summer house</h2>
+        </div>
+        <div class="child">
+            <img src="https://www.w3schools.com/w3images/house2.jpg">
+            <h2> Brick house</h2>
+        </div>
+        <div class="child">
+            <img src="https://www.w3schools.com/w3images/house3.jpg">
+            <h2>  renovated</h2>
+        </div>
+        <div class="child">
+            <img src=" https://www.w3schools.com/w3images/house4.jpg">
+            <h2> barn house</h2>
+        </div>
+     </div>
+     <div class="kusuma">
+        <div class="child">
+            <img src="https://www.w3schools.com/w3images/house2.jpg">
+            <h2>summer house</h2>
+        </div>
+        <div class="child">
+            <img src="https://www.w3schools.com/w3images/house5.jpg">
+            <h2>brick house</h2>
+        </div>        
+        <div class="child">
+            <img src="https://www.w3schools.com/w3images/house4.jpg">
+            <h2>renovated</h2>
+        </div>       
+         <div class="child">
+            <img src="https://www.w3schools.com/w3images/house3.jpg">
+            <h2>barn house</h2>
+        </div>
+     </div><br>
+     <h1>About</h1>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><br>
+    <div class="kk">
+        <div class="kv">
+            <img src="https://www.w3schools.com/w3images/team2.jpg" alt="">
+            <h1>John Doe</h1><br>
+            <p style="color: grey;">CEO & Founder</p><br>
+            <p> Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p><br>
+            <button style="background-color: gray;color: white;">contact</button>
+        </div>
+        <div class="kv">
+            <img src="https://www.w3schools.com/w3images/team1.jpg" alt="">
+            <h1>Jane Doe</h1><br>
+            <p style="color: grey;">Architect</p><br>
+            <p> Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p><br>
+            <button style="background-color: gray;color: white;">contact</button>
+        </div>
+        <div class="kv">
+            <img src="https://www.w3schools.com/w3images/team3.jpg" alt="">
+            <h1>mike Ross</h1><br>
+            <p style="color: grey;">Architect</p><br>
+            <p> Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p><br>
+            <button style="background-color: gray;color: white;">contact</button>
+        </div>
+        <div class="kv">
+            <img src="https://www.w3schools.com/w3images/team4.jpg" alt="">
+            <h1>Dan star</h1><br>
+            <p style="color: gray;">Architect</p><br>
+            <p> Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p><br>
+            <button style="background-color: gray;color: white;">contact</button>
+        </div>
+   </div><br><br>
+   <h1>Contact</h1>
+   <hr>
+   <h5>Lets get in touch and talk about your next project.</h5><br>
+   <div>
+        <input type="text" placeholder="Name" cellpadding="100"><br>
+        <input type="text" placeholder="Email" cellpadding="100"><br>
+        <input type="text" placeholder="Subject" cellpadding="100"><br>
+        <input type="text" placeholder="Comment" cellpadding="100">
+   </div>
+   <h3><span style="background-color: black;color: aliceblue;">SEND MESSAGE</span></h3>
+   <br>
+    <img src="https://www.w3schools.com/w3images/map.jpg" alt="">
+   <p> powered by w3.css</p>
+
+</body>
+</html
